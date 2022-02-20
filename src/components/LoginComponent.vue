@@ -37,8 +37,7 @@ export default {
             signInWithEmailAndPassword(auth, this.email, this.password)
             .then(() => {
                 // Signed in
-                // const user = userCredential.user;
-                // ...
+                // ヘッダーにてstateをwatchしているのでここでの処理は不要
             })
             .catch(() => {
                 alert('パスワードかメールアドレスが間違っているワン')
