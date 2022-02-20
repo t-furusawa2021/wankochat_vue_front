@@ -6,6 +6,7 @@
 - Authentication
 
 ホスティングはFirebase Hostingを使用
+https://wankochat-7640c.web.app/
 
 ![image](https://user-images.githubusercontent.com/65487142/131284802-96458883-e5e9-47d7-bf39-083d4cd47365.png)
 
