@@ -31,6 +31,7 @@ Vue.config.productionTip = false
 const isLoggedIn = () => {
     return new Promise(resolve => {
         const auth = getAuth()
+        // ログイン状態が変更したタイミングでも発火する。
         onAuthStateChanged(auth, (user) => {
             if (user) {
                 store.commit('setLoginState')
