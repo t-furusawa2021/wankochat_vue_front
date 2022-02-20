@@ -1,5 +1,5 @@
 ## わんこチャット
-ログイン機能とチャット機能のあるVue.js(v3.x)によるspaです。
+ログイン機能とチャット機能のあるVue.js(v2.x)によるspaです。
 
 バックエンド側はFirebaseを使用
 - Realtime Database
